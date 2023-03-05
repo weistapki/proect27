@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        manager("Petr");
+    }
+    public static void manager(String name){
+        System.out.println("Hello " +name);
     }
 }
